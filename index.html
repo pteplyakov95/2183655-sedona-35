@@ -7,7 +7,6 @@
   </head>
 
   <body>
-
     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
@@ -45,13 +44,14 @@
         </ul>
       </nav>
     </header>
-
     <main class="main-index">
       <h1 class="visually-hidden">Седона</h1>
-      <img class="main-image" src="" alt="Добро пожаловать в Седону.">
-      <h2 class="main-title">Седона — небольшой городок в Аризоне,
-        заслуживающий большего!</h2>
-      <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      <section class="welcome">
+        <img class="welcome-background-image" src="" alt="Горы Седоны">
+        <h2 class="welcome-title">Седона — небольшой городок в Аризоне,
+          заслуживающий большего!</h2>
+        <p class="welcome-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      </section>
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
@@ -60,6 +60,7 @@
             <p class="advantages-description">
               Седона — не аттракцион для туристов, там течёт своя жизнь
             </p>
+            <img src="" alt="Городок">
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Небольшая площадь</h3>
@@ -80,24 +81,25 @@
             </p>
           </li>
           <li class="advantages-item">
+            <img src="" alt="Каньон">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-description">
               Да, по нему можно пройти! Если вы осмелитесь, разумеется
             </p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item advantages-item-alternate">
             <h3 class="advantages-title">Жильё</h3>
             <p class="advantages-description">
               Рекомендуем пожить в настоящем мотеле, всё как в кино!
             </p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item advantages-item-alternate">
             <h3 class="advantages-title">Еда</h3>
             <p class="advantages-description">
               Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
             </p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item advantages-item-alternate">
             <h3 class="advantages-title">Сувениры</h3>
             <p class="advantages-description">
               Не только китайского, но и настоящего местного производства!
@@ -106,20 +108,21 @@
         </ul>
       </section>
       <section class="search-hotel">
+        <h1 class="visually-hidden">Поиск гостиницы</h1>
         <h2 class="search-hotel-title">Заинтересовались?</h2>
         <p class="search-hotel-description">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения
           гостиниц в Седоне</p>
-        <a class="button" href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
+        <a class="button" href="#">Поиск гостиницы в седоне</a>
       </section>
-      <section class="subscribe">
+      <article class="subscribe">
+        <h1 class="visually-hidden">Подписка на рассылку</h1>
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="newsletter-email" action="https://echo.htmlacademy.ru" method="post">
-          <!-- <label for="">Подписаться</label> -->
-          <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email">
-          <button class="button newsletter-button" type="submit">Подписаться</button>
+        <form class="subscribe-email" action="https://echo.htmlacademy.ru" method="post">
+          <input class="field" placeholder="Ваш e-mail" type="email" name="subscribe-email">
+          <button class="button subscribe-button" type="submit">Подписаться</button>
         </form>
-      </section>
+      </article>
     </main>
 
     <footer class="page-footer">
