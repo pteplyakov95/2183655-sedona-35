@@ -2,12 +2,13 @@
 <html lang="ru">
 
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Каталог</title>
   </head>
 
   <body>
     <header class="page-header">
+      <img src="/image/logo.svg" alt="Логотип.">
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -28,7 +29,7 @@
             <a class="navigation-link" href="#"><span class="visually-hidden">Избранное<span></a>
           </li>
           <li class="navigation-item">
-            <a class="button button-all" href="#">ХОЧУ СЮДА!</a>
+            <a class="button button-all" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -103,8 +104,12 @@
               </li>
             </ul>
           </fieldset>
-          <button class="button" type="submit">Применить</button>
-          <button class="button button-light" type="submit">Сбросить</button>
+          <div class="button-container">
+            <button class="button" type="submit">Применить</button>
+          </div>
+          <div class="button-container">
+            <button class="button button-light" type="submit">Сбросить</button>
+          </div>
         </form>
 
         <p>Найдено гостиниц: <span>38</span></p>
@@ -199,12 +204,14 @@
         <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
           <input type="text" name="e-mail" placeholder="Ваш e-mail">
-          <button class="button" type="submit">ПОДПИСАТЬСЯ</button>
+          <div class="button-container">
+            <button class="button" type="submit">Подписаться</button>
+          </div>
         </form>
       </section>
     </main>
     <footer class="page-footer">
-      <section class="footer-social">
+      <div class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
           <li class="footer-social-item">
@@ -217,15 +224,15 @@
             <a href="#"> <span class="visually-hidden">Ютуб</span></a>
           </li>
         </ul>
-      </section>
-      <section class="footer-phone">
+      </div>
+      <div class="footer-phone">
         <a class="footer-phone-link" href="tel:+78005558628">+7 (812) 812-12-12</a>
-      </section>
-      <section class="footer-logo">
+      </div>
+      <div class="footer-logo">
         <a class="footer-logo-link" href="#">
-          <img src="" alt="логотип компании HTMLACADEMY">
+          <img src="" alt="логотип компании HTMLACADEMY.">
         </a>
-      </section>
+      </div>
     </footer>
   </body>
 
