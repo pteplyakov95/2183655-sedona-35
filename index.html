@@ -8,17 +8,19 @@
 
   <body>
     <header class="page-header">
-      <img src="/image/logo.svg" alt="Логотип." title="Логотип седоны.">
+      <a href="index.html">
+      <img src="image/logo.svg" alt="Логотип." title="Логотип седоны.">
+    </a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="#">Главная</a>
+            <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
         <ul class="navigation-list navigation-user">
@@ -29,7 +31,7 @@
             <a class="navigation-link" href="#"><span class="visually-hidden">Избранное<span></a>
           </li>
           <li class="navigation-item">
-            <a class="button button-all" href="#">ХОЧУ СЮДА!</a>
+            <a class="button button-all" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -94,7 +96,9 @@
         <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
           <input type="text" name="e-mail" placeholder="Ваш e-mail">
-          <button class="button" type="submit">ПОДПИСАТЬСЯ</button>
+          <div class="button-container">
+          <button class="button" type="submit">Подписаться</button>
+        </div>
         </form>
       </section>
     </main>
